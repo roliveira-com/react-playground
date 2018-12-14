@@ -1,4 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Title from './components/title';
 
-ReactDOM.render(<h1>Hey, this is React</h1>, document.getElementById('app'));
+ReactDOM.render(<Title text="Título da bagaça toda"/>, document.getElementById('app'));

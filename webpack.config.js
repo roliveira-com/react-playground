@@ -8,7 +8,10 @@ module.exports = {
     },
     devServer: {
         port: 8080,
-        contetBase: './public',
+        contentBase: './public',
+    },
+    resolve: {
+        extensions: ['', '.js', '.jsx']
     },
     module: {
         loaders: [{
