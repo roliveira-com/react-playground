@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Title from './components/title';
 
 // Importando um unico componente
 // import Nav from './components/nav';
